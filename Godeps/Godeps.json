@@ -1,0 +1,14 @@
+{
+	"ImportPath": "go-tree-method-o",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "GO-TREE-METHOD-O/RF",
+			"Rev": "66adca038ae96a9e82c7df1d91b5234f3f071c04"
+		}
+	]
+}
