@@ -82,5 +82,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	forest = RF.BuildForest(inputs, targets, 10, 500, len(train_inputs[0])) //100 trees
 	RF.DumpForest(forest, "test")
-	log.Printf("forest - [%+v]", forest)
+	fjson, _ := json.Marshal(forest)
+	log.Printf("forest - [%s]", string(fjson))
 }
